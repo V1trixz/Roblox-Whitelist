@@ -175,7 +175,7 @@ Voce cria:
 
 Como voce quer simplicidade, eu recomendo `1 unico Web Service`.
 
-Foi por isso que eu mudei o [render.yaml](E:\Whitelist-discord\render.yaml) para esse modo.
+Foi por isso que eu mudei o [render.yaml](./render.yaml) para esse modo.
 
 ### Onde o storage fica
 
@@ -199,7 +199,7 @@ O arquivo JSON do sistema vai ficar em:
 
 ### Jeito mais facil: usar o `render.yaml`
 
-O projeto ja inclui [render.yaml](E:\Whitelist-discord\render.yaml). Ele cria:
+O projeto ja inclui [render.yaml](./render.yaml). Ele cria:
 
 - `roblox-whitelist-app` como `1 unico Web Service`
 - `1 Persistent Disk` montado em `/var/data`
@@ -207,7 +207,7 @@ O projeto ja inclui [render.yaml](E:\Whitelist-discord\render.yaml). Ele cria:
 
 ### Se quiser o modo com 2 servicos
 
-Tambem deixei pronto o arquivo [render.multi-service.yaml](E:\Whitelist-discord\render.multi-service.yaml).
+Tambem deixei pronto o arquivo [render.multi-service.yaml](./render.multi-service.yaml).
 
 Esse modo cria:
 
@@ -324,7 +324,7 @@ npm run app
 
 #### Modo 2: dois servicos
 
-Se quiser separar depois, use o arquivo [render.multi-service.yaml](E:\Whitelist-discord\render.multi-service.yaml) como referencia.
+Se quiser separar depois, use o arquivo [render.multi-service.yaml](./render.multi-service.yaml) como referencia.
 
 ### Depois do deploy
 

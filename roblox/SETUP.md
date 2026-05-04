@@ -28,7 +28,7 @@ ServerScriptService
 ## Ajustes importantes
 
 1. Em `Home > Game Settings > Security`, ative `Enable Studio Access to API Services` para testes e `Allow HTTP Requests`.
-2. No arquivo [WhitelistServer.server.lua](E:\Whitelist-discord\roblox\WhitelistServer.server.lua), troque:
+2. No arquivo [WhitelistServer.server.lua](./WhitelistServer.server.lua), troque:
    - `VALIDATION_URL`
    - `SHARED_SECRET`
 3. No `ScreenGui` `Whitelist`, deixe `ResetOnSpawn = false`.
