@@ -1,0 +1,20 @@
+{
+  "name": "whitelist-discord-roblox",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistema de whitelist Roblox com bot do Discord e servidor externo.",
+  "scripts": {
+    "app": "node src/all-in-one/index.js",
+    "server": "node src/server/index.js",
+    "bot": "node src/bot/index.js",
+    "dev:app": "node --watch src/all-in-one/index.js",
+    "dev:server": "node --watch src/server/index.js",
+    "dev:bot": "node --watch src/bot/index.js",
+    "check": "node --check src/shared/config.js && node --check src/server/store.js && node --check src/server/app.js && node --check src/server/index.js && node --check src/bot/apiClient.js && node --check src/bot/index.js && node --check src/all-in-one/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
